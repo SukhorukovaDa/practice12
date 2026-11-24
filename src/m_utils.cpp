@@ -9,10 +9,8 @@ int sub(int a, int b) {
 }
 
 double divide(int a, int b) {
-    // ваш код деления
-}
     if (b == 0) {
-        throw "Division by zero";
+        // ... ваш код обработки деления на ноль (например, throw или return 0.0)
     }
     return static_cast<double>(a) / b;
 }
