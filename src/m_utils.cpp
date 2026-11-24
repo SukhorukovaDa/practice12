@@ -8,7 +8,9 @@ int sub(int a, int b) {
     return a - b;
 }
 
-double div(int a, int b) {
+double divide(int a, int b) {
+    // ваш код деления
+}
     if (b == 0) {
         throw "Division by zero";
     }
